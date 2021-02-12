@@ -9,6 +9,22 @@ class DP:
     maximum value you can carry?
 
     objects = [(v1, w1), (v2, w2), (vn, wn)]
+
+    table:
+    m = items
+    n = available_weight
+
+        0   1   2   3   4   5
+
+    0
+
+    1
+
+    2
+
+    3
+
+    4
     """
 
     def __init__(self, objects, W):
